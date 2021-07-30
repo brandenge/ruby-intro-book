@@ -40,7 +40,7 @@ end
 # For loop
 def fact4(integer)
   factorial = 1
-  for i in 1..integer
+  for i in 1..integer do
     factorial *= i
   end
   puts_fact(4, integer, factorial)
